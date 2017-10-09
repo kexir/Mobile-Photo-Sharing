@@ -1,0 +1,6 @@
+framework module Pods_Mobile_Photo_Sharing_Mobile_Photo_Sharing {
+  umbrella header "Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing-umbrella.h"
+
+  export *
+  module * { export * }
+}

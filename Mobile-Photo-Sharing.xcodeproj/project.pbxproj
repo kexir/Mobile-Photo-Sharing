@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DD11EBF42C78F071071B95A /* Pods_Mobile_Photo_Sharing_Mobile_Photo_Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8828802A50602DDBD01FC577 /* Pods_Mobile_Photo_Sharing_Mobile_Photo_Sharing.framework */; };
+		5A3D31A82732940DB3DF3EDA /* Pods_Mobile_Photo_Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFD231576F8C798899DF6D2 /* Pods_Mobile_Photo_Sharing.framework */; };
+		9259B7E6D09548CE1AC14B96 /* Pods_Mobile_Photo_SharingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA25B237A40AC723E613B92 /* Pods_Mobile_Photo_SharingUITests.framework */; };
+		B026A3B8C66C83417B7B2607 /* Pods_Mobile_Photo_SharingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B34F972BF6C703802456A8D /* Pods_Mobile_Photo_SharingTests.framework */; };
 		D039FEFF1F6077BB00A1EFA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039FEFE1F6077BB00A1EFA6 /* AppDelegate.swift */; };
 		D039FF011F6077BB00A1EFA6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039FF001F6077BB00A1EFA6 /* FirstViewController.swift */; };
 		D039FF031F6077BB00A1EFA6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039FF021F6077BB00A1EFA6 /* SecondViewController.swift */; };
@@ -15,6 +19,12 @@
 		D039FF0B1F6077BB00A1EFA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D039FF091F6077BB00A1EFA6 /* LaunchScreen.storyboard */; };
 		D039FF161F6077BB00A1EFA6 /* Mobile_Photo_SharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039FF151F6077BB00A1EFA6 /* Mobile_Photo_SharingTests.swift */; };
 		D039FF211F6077BB00A1EFA6 /* Mobile_Photo_SharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039FF201F6077BB00A1EFA6 /* Mobile_Photo_SharingUITests.swift */; };
+		D088DD4D1F70A09700F8B39F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D088DD4C1F70A09700F8B39F /* ThirdViewController.swift */; };
+		D088DD4F1F7189D100F8B39F /* YangMingShan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D088DD4E1F7189D100F8B39F /* YangMingShan.framework */; };
+		D088DD531F71B8CF00F8B39F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D088DD521F71B8CF00F8B39F /* TableViewCell.swift */; };
+		D088DD551F71CA0800F8B39F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D088DD541F71CA0800F8B39F /* DetailViewController.swift */; };
+		D088DD571F71E47600F8B39F /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D088DD561F71E47600F8B39F /* AppInfo.swift */; };
+		D0D513E31F8AF0A700B34BDB /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D513E21F8AF0A700B34BDB /* SubscribeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013EFB1420BC75371C8BBD50 /* Pods-Mobile-Photo-Sharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile-Photo-Sharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobile-Photo-Sharing/Pods-Mobile-Photo-Sharing.debug.xcconfig"; sourceTree = "<group>"; };
+		0F694D55B3CA53B5DD338FF4 /* Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing/Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing.debug.xcconfig"; sourceTree = "<group>"; };
+		1FA25B237A40AC723E613B92 /* Pods_Mobile_Photo_SharingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_Photo_SharingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A023C46CD6C0B9BD8ACFDF /* Pods-Mobile-Photo-SharingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile-Photo-SharingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobile-Photo-SharingUITests/Pods-Mobile-Photo-SharingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		27E0D9F45816F105B0A61673 /* Pods-Mobile-Photo-Sharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile-Photo-Sharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobile-Photo-Sharing/Pods-Mobile-Photo-Sharing.release.xcconfig"; sourceTree = "<group>"; };
+		4FF07CB4983A5F4F0E2015E6 /* Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing/Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing.release.xcconfig"; sourceTree = "<group>"; };
+		6EFD231576F8C798899DF6D2 /* Pods_Mobile_Photo_Sharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_Photo_Sharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E499CAF81DCF01B6A9B57B1 /* Pods-Mobile-Photo-SharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile-Photo-SharingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobile-Photo-SharingTests/Pods-Mobile-Photo-SharingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8828802A50602DDBD01FC577 /* Pods_Mobile_Photo_Sharing_Mobile_Photo_Sharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_Photo_Sharing_Mobile_Photo_Sharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B34F972BF6C703802456A8D /* Pods_Mobile_Photo_SharingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_Photo_SharingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65D45371B0898AA1E633F70 /* Pods-Mobile-Photo-SharingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile-Photo-SharingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobile-Photo-SharingTests/Pods-Mobile-Photo-SharingTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCDF2F8624F1C646661795CF /* Pods-Mobile-Photo-SharingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile-Photo-SharingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobile-Photo-SharingUITests/Pods-Mobile-Photo-SharingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D039FEFB1F6077BB00A1EFA6 /* Mobile-Photo-Sharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile-Photo-Sharing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D039FEFE1F6077BB00A1EFA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D039FF001F6077BB00A1EFA6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +71,12 @@
 		D039FF1C1F6077BB00A1EFA6 /* Mobile-Photo-SharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile-Photo-SharingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D039FF201F6077BB00A1EFA6 /* Mobile_Photo_SharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_Photo_SharingUITests.swift; sourceTree = "<group>"; };
 		D039FF221F6077BB00A1EFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D088DD4C1F70A09700F8B39F /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		D088DD4E1F7189D100F8B39F /* YangMingShan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YangMingShan.framework; path = "Pods/../build/Debug-iphoneos/YangMingShan/YangMingShan.framework"; sourceTree = "<group>"; };
+		D088DD521F71B8CF00F8B39F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D088DD541F71CA0800F8B39F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D088DD561F71E47600F8B39F /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		D0D513E21F8AF0A700B34BDB /* SubscribeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D088DD4F1F7189D100F8B39F /* YangMingShan.framework in Frameworks */,
+				5A3D31A82732940DB3DF3EDA /* Pods_Mobile_Photo_Sharing.framework in Frameworks */,
+				0DD11EBF42C78F071071B95A /* Pods_Mobile_Photo_Sharing_Mobile_Photo_Sharing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B026A3B8C66C83417B7B2607 /* Pods_Mobile_Photo_SharingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9259B7E6D09548CE1AC14B96 /* Pods_Mobile_Photo_SharingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FFBD40FAEDF68922C11273B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				013EFB1420BC75371C8BBD50 /* Pods-Mobile-Photo-Sharing.debug.xcconfig */,
+				27E0D9F45816F105B0A61673 /* Pods-Mobile-Photo-Sharing.release.xcconfig */,
+				0F694D55B3CA53B5DD338FF4 /* Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing.debug.xcconfig */,
+				4FF07CB4983A5F4F0E2015E6 /* Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing.release.xcconfig */,
+				7E499CAF81DCF01B6A9B57B1 /* Pods-Mobile-Photo-SharingTests.debug.xcconfig */,
+				A65D45371B0898AA1E633F70 /* Pods-Mobile-Photo-SharingTests.release.xcconfig */,
+				BCDF2F8624F1C646661795CF /* Pods-Mobile-Photo-SharingUITests.debug.xcconfig */,
+				23A023C46CD6C0B9BD8ACFDF /* Pods-Mobile-Photo-SharingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A562D2DD260538C2332A3CAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D088DD4E1F7189D100F8B39F /* YangMingShan.framework */,
+				6EFD231576F8C798899DF6D2 /* Pods_Mobile_Photo_Sharing.framework */,
+				8828802A50602DDBD01FC577 /* Pods_Mobile_Photo_Sharing_Mobile_Photo_Sharing.framework */,
+				8B34F972BF6C703802456A8D /* Pods_Mobile_Photo_SharingTests.framework */,
+				1FA25B237A40AC723E613B92 /* Pods_Mobile_Photo_SharingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D039FEF21F6077BB00A1EFA6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +143,8 @@
 				D039FF141F6077BB00A1EFA6 /* Mobile-Photo-SharingTests */,
 				D039FF1F1F6077BB00A1EFA6 /* Mobile-Photo-SharingUITests */,
 				D039FEFC1F6077BB00A1EFA6 /* Products */,
+				6FFBD40FAEDF68922C11273B /* Pods */,
+				A562D2DD260538C2332A3CAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +161,11 @@
 		D039FEFD1F6077BB00A1EFA6 /* Mobile-Photo-Sharing */ = {
 			isa = PBXGroup;
 			children = (
+				D0D513E11F8AF06800B34BDB /* Subscribe */,
+				D088DD561F71E47600F8B39F /* AppInfo.swift */,
 				D039FEFE1F6077BB00A1EFA6 /* AppDelegate.swift */,
-				D039FF001F6077BB00A1EFA6 /* FirstViewController.swift */,
-				D039FF021F6077BB00A1EFA6 /* SecondViewController.swift */,
+				D088DD5A1F71E57500F8B39F /* Upload */,
+				D088DD5B1F71E59700F8B39F /* Download */,
 				D039FF041F6077BB00A1EFA6 /* Main.storyboard */,
 				D039FF071F6077BB00A1EFA6 /* Assets.xcassets */,
 				D039FF091F6077BB00A1EFA6 /* LaunchScreen.storyboard */,
@@ -128,6 +192,33 @@
 			path = "Mobile-Photo-SharingUITests";
 			sourceTree = "<group>";
 		};
+		D088DD5A1F71E57500F8B39F /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				D039FF001F6077BB00A1EFA6 /* FirstViewController.swift */,
+				D088DD4C1F70A09700F8B39F /* ThirdViewController.swift */,
+			);
+			name = Upload;
+			sourceTree = "<group>";
+		};
+		D088DD5B1F71E59700F8B39F /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				D039FF021F6077BB00A1EFA6 /* SecondViewController.swift */,
+				D088DD521F71B8CF00F8B39F /* TableViewCell.swift */,
+				D088DD541F71CA0800F8B39F /* DetailViewController.swift */,
+			);
+			name = Download;
+			sourceTree = "<group>";
+		};
+		D0D513E11F8AF06800B34BDB /* Subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				D0D513E21F8AF0A700B34BDB /* SubscribeViewController.swift */,
+			);
+			name = Subscribe;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D039FF251F6077BB00A1EFA6 /* Build configuration list for PBXNativeTarget "Mobile-Photo-Sharing" */;
 			buildPhases = (
+				5163F12DF712551B15AB34E5 /* [CP] Check Pods Manifest.lock */,
 				D039FEF71F6077BB00A1EFA6 /* Sources */,
 				D039FEF81F6077BB00A1EFA6 /* Frameworks */,
 				D039FEF91F6077BB00A1EFA6 /* Resources */,
+				DE568BCD7FF21DF01A694D89 /* [CP] Embed Pods Frameworks */,
+				F6E79BE99E13B372C61ED18D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D039FF281F6077BB00A1EFA6 /* Build configuration list for PBXNativeTarget "Mobile-Photo-SharingTests" */;
 			buildPhases = (
+				713B5A0A77A6D1918A0A781F /* [CP] Check Pods Manifest.lock */,
 				D039FF0D1F6077BB00A1EFA6 /* Sources */,
 				D039FF0E1F6077BB00A1EFA6 /* Frameworks */,
 				D039FF0F1F6077BB00A1EFA6 /* Resources */,
+				A1355ABF6C7453F541C01114 /* [CP] Embed Pods Frameworks */,
+				12E0A52957E7B5F81ACBB4B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D039FF2B1F6077BB00A1EFA6 /* Build configuration list for PBXNativeTarget "Mobile-Photo-SharingUITests" */;
 			buildPhases = (
+				F257610BAFE4A1E710F54825 /* [CP] Check Pods Manifest.lock */,
 				D039FF181F6077BB00A1EFA6 /* Sources */,
 				D039FF191F6077BB00A1EFA6 /* Frameworks */,
 				D039FF1A1F6077BB00A1EFA6 /* Resources */,
+				2D58E57AC4A34E74A522D8BA /* [CP] Embed Pods Frameworks */,
+				C64AFAEACB226E36730F3DD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +357,213 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12E0A52957E7B5F81ACBB4B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobile-Photo-SharingTests/Pods-Mobile-Photo-SharingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D58E57AC4A34E74A522D8BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobile-Photo-SharingUITests/Pods-Mobile-Photo-SharingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5163F12DF712551B15AB34E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		713B5A0A77A6D1918A0A781F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobile-Photo-SharingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1355ABF6C7453F541C01114 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobile-Photo-SharingTests/Pods-Mobile-Photo-SharingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C64AFAEACB226E36730F3DD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobile-Photo-SharingUITests/Pods-Mobile-Photo-SharingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE568BCD7FF21DF01A694D89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing/Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAutoScaling/AWSAutoScaling.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCloudWatch/AWSCloudWatch.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSEC2/AWSEC2.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSElasticLoadBalancing/AWSElasticLoadBalancing.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSIoT/AWSIoT.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSKinesis/AWSKinesis.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLambda/AWSLambda.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLex/AWSLex.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMachineLearning/AWSMachineLearning.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileAnalytics/AWSMobileAnalytics.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPolly/AWSPolly.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSRekognition/AWSRekognition.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSES/AWSSES.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSNS/AWSSNS.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSQS/AWSSQS.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSimpleDB/AWSSimpleDB.framework",
+				"${BUILT_PRODUCTS_DIR}/YangMingShan/YangMingShan.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAutoScaling.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCloudWatch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSEC2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSElasticLoadBalancing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSIoT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKinesis.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLambda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLex.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMachineLearning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPolly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSRekognition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSES.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSNS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSQS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSimpleDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YangMingShan.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing/Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F257610BAFE4A1E710F54825 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobile-Photo-SharingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E79BE99E13B372C61ED18D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing/Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D039FEF71F6077BB00A1EFA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D039FF031F6077BB00A1EFA6 /* SecondViewController.swift in Sources */,
+				D0D513E31F8AF0A700B34BDB /* SubscribeViewController.swift in Sources */,
 				D039FEFF1F6077BB00A1EFA6 /* AppDelegate.swift in Sources */,
+				D088DD4D1F70A09700F8B39F /* ThirdViewController.swift in Sources */,
+				D088DD531F71B8CF00F8B39F /* TableViewCell.swift in Sources */,
+				D088DD571F71E47600F8B39F /* AppInfo.swift in Sources */,
 				D039FF011F6077BB00A1EFA6 /* FirstViewController.swift in Sources */,
+				D088DD551F71CA0800F8B39F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,8 +713,13 @@
 		};
 		D039FF261F6077BB00A1EFA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F694D55B3CA53B5DD338FF4 /* Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/YangMingShan",
+				);
 				INFOPLIST_FILE = "Mobile-Photo-Sharing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LyuQi.Mobile-Photo-Sharing";
@@ -426,8 +730,13 @@
 		};
 		D039FF271F6077BB00A1EFA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF07CB4983A5F4F0E2015E6 /* Pods-Mobile-Photo-Sharing-Mobile-Photo-Sharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/YangMingShan",
+				);
 				INFOPLIST_FILE = "Mobile-Photo-Sharing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LyuQi.Mobile-Photo-Sharing";
@@ -438,6 +747,7 @@
 		};
 		D039FF291F6077BB00A1EFA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E499CAF81DCF01B6A9B57B1 /* Pods-Mobile-Photo-SharingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +762,7 @@
 		};
 		D039FF2A1F6077BB00A1EFA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65D45371B0898AA1E633F70 /* Pods-Mobile-Photo-SharingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +777,7 @@
 		};
 		D039FF2C1F6077BB00A1EFA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCDF2F8624F1C646661795CF /* Pods-Mobile-Photo-SharingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Mobile-Photo-SharingUITests/Info.plist";
@@ -479,6 +791,7 @@
 		};
 		D039FF2D1F6077BB00A1EFA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A023C46CD6C0B9BD8ACFDF /* Pods-Mobile-Photo-SharingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Mobile-Photo-SharingUITests/Info.plist";
@@ -509,6 +822,7 @@
 				D039FF271F6077BB00A1EFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D039FF281F6077BB00A1EFA6 /* Build configuration list for PBXNativeTarget "Mobile-Photo-SharingTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +831,7 @@
 				D039FF2A1F6077BB00A1EFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D039FF2B1F6077BB00A1EFA6 /* Build configuration list for PBXNativeTarget "Mobile-Photo-SharingUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +840,7 @@
 				D039FF2D1F6077BB00A1EFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
